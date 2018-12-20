@@ -1,0 +1,24 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "main": "serv-deco.js",
+  "scripts": {
+    "start": "node serv-deco.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.2"
+  },
+  "xo": {
+    "space": 2,
+    "rules": {
+      "max-len": [
+        "error",
+        80,
+        2
+      ]
+    }
+  }
+}
